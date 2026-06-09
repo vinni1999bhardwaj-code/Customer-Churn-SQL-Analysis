@@ -50,7 +50,7 @@ The following checks were performed:
 - CASE WHEN
 - Aggregate Functions
 - GROUP BY
-📄 View SQL Code: [Data Cleaning Queries](./01_data_cleaning.sql)
+## 📄 View SQL Code:  View SQL Code: [Data Cleaning Queries](01_data_cleaning.sql)
 
 <img src="01_dataset_preview.png" width="900">
 
@@ -76,7 +76,7 @@ The analysis focused on:
 - Conditional Analysis
 - Percentage Calculations
 
-📄 View SQL Code: [EDA Queries](./02_eda.sql)
+## 📄 View SQL Code: [EDA Queries](./02_eda.sql)
 
 <img src="02_churn_rate_by_geography.png" width="900">
 
@@ -102,7 +102,7 @@ Features created:
 - Derived Columns
 - Business Rule Logic
 
-📄 View SQL Code: [Feature Engineering Queries](./03_feature_engineering.sql)
+## 📄 View SQL Code: [Feature Engineering Queries](./03_feature_engineering.sql)
 
 <img src="01_age_group_feature.png" width="900">
 
@@ -129,7 +129,7 @@ Analysis performed:
 - Multi-step Business Queries
 - Customer Segmentation
 
-📄 View SQL Code: [Business Analysis Queries](./04_business_analysis.sql)
+## 📄 View SQL Code: [Business Analysis Queries](./04_business_analysis.sql)
 
 <img src="Customer Risk Scoring Model.png" width="900">
 
@@ -188,3 +188,9 @@ Customer activity status, credit score category, age group, and product ownershi
 ### Vinita Bhardwaj
 
 ### Aspiring Business Analyst | SQL | Excel | Power BI
+
+📧 Email: (mailto:Vinni1999bhardwaj@gmail.com)
+
+🔗 LinkedIn: (https://www.linkedin.com/in/vinita-bhardwaj-2a9627227 )
+
+🔗 GitHub: (https://github.com/vinni1999bhardwaj-code)
