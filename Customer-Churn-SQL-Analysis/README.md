@@ -1,58 +1,66 @@
 
-📊 Customer Churn Analysis using SQL
+# 📊 Banking Customer Churn Analysis using SQL
+## 🎯 Business Problem
 
-🎯 **Project Overview**
-
-This project analyzes customer churn patterns in a banking dataset using MySQL.
-
-The objective is to identify key drivers of customer attrition and provide actionable business recommendations to improve customer retention.
-
----
+A retail bank is experiencing customer attrition and wants to understand the key drivers behind customer churn.
+The objective of this project is to analyze customer demographics, account behavior, product ownership, and engagement patterns to identify high-risk customer segments and recommend retention strategies.
 
 🛠️ **Tools & Technologies**
 
 - MySQL
 - SQL
 - MySQL Workbench
-
 ---
 
-📂**Project Workflow**
+## 📂 Dataset Overview
 
-🧹 Data Cleaning
-- Record count validation
-- Duplicate checks
-- Missing value analysis
+The dataset contains customer-level banking information including:
 
-🔍 Exploratory Data Analysis
-- Geography churn analysis
-- Gender analysis
-- Product analysis
-- Age group analysis
-
-⚙️ Feature Engineering
-- Age Groups
-- Credit Score Bands
-- Balance Segments
+- Geography
+- Age
+- Gender
+- Credit Score
+- Balance
+- Product Ownership
 - Activity Status
+- Churn Status
 
-📈 Business Analysis
-- CTEs
-- Window Functions
-- Customer Segmentation
-- Risk Scoring
+## 🧹 Data Preparation
+### Dataset Preview
 
----
+![Dataset Preview](01_dataset_preview.png)
 
-💡 **Key Insights**
+### Record Count Validation
 
-✅ Germany recorded the highest churn rate
+![Record Count Validation](02_record_count_validation.png)
 
-✅ Inactive customers were more likely to leave
+### Missing Value Analysis
 
-✅ Customers aged 50+ showed elevated churn behaviour
+![Missing Value Analysis](03_missing_value_analysis.png)
 
-✅ Product ownership patterns revealed retention opportunities
+### Churn Rate by Geography
+
+![Churn by Geography](02_churn_rate_by_geography.png)
+
+💡 Key Insights
+
+✅ Germany showed the highest churn rate
+
+✅ France had the lowest customer attrition
+
+✅ Geography appears to be a significant churn driver
+
+### Churn Rate by Age Group
+
+![Churn by Age Group](03_churn_rate_by_age_group.png)
+
+💡 Key Insights
+
+✅ Customers above 50 years showed higher churn
+
+✅ Younger customers demonstrated stronger retention
+
+✅ Age is an important predictor of customer exit
 
 ---
 
