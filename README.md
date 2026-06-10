@@ -135,7 +135,7 @@ Analysis performed:
 
 <img src="Retention Opportunity Analysis.png" width="900">
 
-## Executive Summary
+## 📋 Executive Summary
 
 The analysis identified multiple customer segments exhibiting significantly elevated churn risk.
 
@@ -145,6 +145,25 @@ The analysis identified multiple customer segments exhibiting significantly elev
 - Customers aged 50+ exhibited the highest churn rate (44.65%), more than double the overall churn rate.
 - Inactive customers churned at 26.85%, compared to 14.27% for active customers.
 - Customers holding 3 or more products showed unusually high churn behaviour and require further investigation.
+
+### Customer Risk Scoring Model
+
+A rule-based churn risk model was developed using key predictive factors:
+
+- Age 50+ = 3 Points
+- Inactive Member = 2 Points
+- Germany = 2 Points
+- Female = 1 Point
+
+### Results
+
+| Risk Level | Customers | Churn Rate |
+|------------|-----------|------------|
+| High Risk | 440 | 76.82% |
+| Medium Risk | 3960 | 27.35% |
+| Low Risk | 5600 | 11.00% |
+
+The model successfully separated customers into distinct risk categories, with High Risk customers exhibiting a churn rate nearly seven times higher than Low Risk customers.
 
 
 ## 💡 Key Insights
